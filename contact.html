@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -8,7 +8,7 @@
 </head>
 <body>
     <header>
-        <h1>My Portfolio</h1>
+        <h1>Ajuoga Mary Atieno - My Portfolio</h1>
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
@@ -20,23 +20,26 @@
 
     <section class="contact">
         <h2>Contact Me</h2>
-        <form>
+        <form action="mailto:atienojoy24@gmail.com" method="post" enctype="text/plain">
             <label for="name">Name:</label>
-            <input type="text" id="name" required>
-            
+            <input type="text" id="name" name="name" required>
+
             <label for="email">Email:</label>
-            <input type="email" id="email" required>
-            
+            <input type="email" id="email" name="email" required>
+
             <label for="message">Message:</label>
-            <textarea id="message" required></textarea>
-            
+            <textarea id="message" name="message" required></textarea>
+
             <button type="submit">Send</button>
         </form>
     </section>
 
     <footer>
         <p>Connect with me:</p>
-        <a href="#">GitHub https://github.com/Ajuoga-igt</a> | <a href="#">LinkedIn https://www.linkedin.com/me?trk=p_mwlite_feed-secondary_nav</a> | <a href="#">Twitter</a>
+        <a href="https://github.com/Ajuoga-igt" target="_blank">GitHub</a> |
+        <a href="https://www.linkedin.com/me?trk=p_mwlite_feed-secondary_nav" target="_blank">LinkedIn</a> |
+        <a href="#" target="_blank">Twitter</a>
+        <p>Email: <a href="mailto:atienojoy24@gmail.com">atienojoy24@gmail.com</a></p>
     </footer>
 </body>
 </html>
